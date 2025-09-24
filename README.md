@@ -1,45 +1,45 @@
-# Simple Platformer - Простая игра на Go
+# Simple Platformer - First Go Game
 
-Это простая платформер игра, написанная на Go с использованием библиотеки Ebiten.
+This is a simple platformer game written in Go using the Ebiten library.
 
-## Описание игры
+## Game Description
 
-- **Цель**: Соберите все монеты, прыгая по платформам
-- **Управление**: 
-  - `A` или `←` - движение влево
-  - `D` или `→` - движение вправо  
-  - `Пробел` - прыжок
-- **Физика**: Реалистичная гравитация и коллизии
+- **Objective**: Collect all coins by jumping on platforms
+- **Controls**: 
+  - `A` or `←` - move left
+  - `D` or `→` - move right  
+  - `Space` - jump
+- **Physics**: Realistic gravity and collisions
 
-## Установка и запуск
+## Installation and Running
 
-1. Убедитесь, что у вас установлен Go (версия 1.21 или выше)
+1. Make sure you have Go installed (version 1.21 or higher)
 
-2. Клонируйте или скачайте проект
+2. Clone or download the project
 
-3. Установите зависимости:
+3. Install dependencies:
 ```bash
 go mod tidy
 ```
 
-4. Запустите игру:
+4. Run the game:
 ```bash
 go run main.go
 ```
 
-## Особенности
+## Features
 
-- Простая физика с гравитацией
-- Система коллизий для платформ
-- Сбор монет с подсчетом очков
-- Красивый небесно-голубой фон
-- Красный игрок и золотые монеты
+- Simple physics with gravity
+- Collision system for platforms
+- Coin collection with score counting
+- Beautiful sky-blue background
+- Red player and golden coins
 
-## Структура кода
+## Code Structure
 
-- `Player` - структура игрока с позицией и скоростью
-- `Platform` - платформы для прыжков
-- `Coin` - монеты для сбора
-- `Game` - основная логика игры
+- `Player` - player structure with position and velocity
+- `Platform` - platforms for jumping
+- `Coin` - coins to collect
+- `Game` - main game logic
 
-Это отличная первая игра для изучения Go и игровой разработки!
+This is an excellent first game for learning Go and game development!
